@@ -1,5 +1,6 @@
 
 import 'package:dayone_resep/screens/beranda.dart';
+import 'package:dayone_resep/screens/kategori.dart';
 import 'package:dayone_resep/screens/list_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -27,9 +28,10 @@ class _HomeState extends State<Home> {
   final _myPages = [
     Beranda(),
     ListPages(),
-    Container(
-      child: Center(child: Text("Kosong Bruh"),),
-    )
+    // Container(
+    //   child: Center(child: Text("Kosong Bruh"),),
+    // )
+    Kategori()
   ];
 
   @override
